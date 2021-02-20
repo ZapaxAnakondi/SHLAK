@@ -1,0 +1,329 @@
+@black: #000;
+@grey:  rgba(150, 150, 150, 1);
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.header-up{
+    height: 44px;
+    background-color: @black;
+    color: @grey;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.nav-phone ,.nav-log{
+display: flex;
+height: 44px;
+line-height: 16px;
+text-align: center;
+vertical-align: middle;
+}
+.nav-phone img, .nav-log img{
+    height: 16px;
+    padding: 12px 10px 0 0;
+}
+.header-down{
+    height: 81px;
+    background-color: rgba(15, 15, 15, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.header-down h1 {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 405px;
+}
+.nav-down button {
+    width: 136px;
+    height: 80px;
+    background-color:rgba(31, 31, 31, 1);
+    color:  rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+.nav-down button:not(:last-child) {
+    margin-right: -5px;
+}
+.nav-down button:hover {
+    opacity: 0.5;
+}
+
+
+.block-1{
+    height: 810px;
+    background-image: url(src/Rectangle\ 3.png);
+    color:  rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.porten-spb {
+    height: 320px;
+    width: 320px;
+    text-align: center;
+    border: 4px solid white;
+}
+.porten-spb h1 {
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.porten-spb h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-block-1 {
+    width: 730px;
+    height: 96px;
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.block-2{
+    display: flex;
+    color: white;
+ 
+}
+.seson{
+    width: 1040px;
+    height: 730px;
+    background-color: @black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.seson h1{
+    padding-top: 90px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+.product {
+    width: 260px;
+    height: 305px;
+    text-align: center;
+    background-color: rgba(25, 27, 28, 1);
+    padding-top: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.product img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+
+   
+}
+.collection{
+    width: 880px;
+    height: 730px;
+    background-image: url(src/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.collection button{
+    height: 44px;
+    width: 130px;
+    margin: 100px auto;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.collection button:hover{
+    background-color: black;
+    transition: 1s;
+    
+}
+
+.block-3{
+    display: flex;
+}
+.img-block-3{
+    width: 880px;
+    height: 600px;
+    background-image: url(src/Rectangle\ 9.png);
+}
+.text-block-3{
+    width: 1040px;
+    height: 600px;
+    background-color: @black;
+    color: white;
+    text-align: center;
+}
+.text-block-3 h1 {
+    margin: 100px auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-block-3 p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 80px 285px;
+}
+.text-block-3 button {
+    height: 47px;
+    width: 311px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+
+}
+.text-block-3 button:hover{
+    opacity: 0.5;
+}
+
+.Card-product{
+    height: 1289px;
+    background-color: @black;
+    color: white;
+}
+
+.Card-product h1 {
+    text-align: center;
+    padding-top: 120px;
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 39px;
+}
+.card-products{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 121px auto;
+} 
+.card-product{
+    width: 260px;
+    height: 305px;
+    text-align: center;
+    background-color: rgba(25, 27, 28, 1);
+    padding-top: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.card-product img:hover {
+    transform: scale(1.1);
+    transition: 1s;  
+    cursor: pointer;
+}
+.partner{
+    height: 362px;
+    background-color: rgba(15, 15, 15, 1);
+    color: white;
+    text-align: center;
+}
+.partner h1 {
+    padding: 60px;
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 49px;
+    font-weight: 700;
+}
+.brend img{
+    margin: auto 20px;
+}
+.footer{
+    height: 400px;
+    display: flex;
+    background-image: url(src/Rectangle\ 15.png);
+    color: white;
+}
+
+.info {
+    padding:80px 30px 0 405px;
+}
+.info h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.info p {
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.categories h1 {
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.categories button{
+    height: 41px;
+    width: 70px;
+    background-color: rgba(15, 15, 15, 1);
+    color: white;
+    outline: none;
+    margin: 0 0px 0 20px;
+    border: none;
+    cursor: pointer;
+}
+.categories button:nth-child(2) {
+    margin-left: 0%;
+}
+.categories button:nth-child(6){
+    width: 164px;
+    margin-top: 20px;
+    margin-left: 0%;
+}
+.email {
+    padding: 80px 0 0 112px;
+}
+.email h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.email p {
+    width: 350px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.mail{
+    width: 210px;
+    height: 42px;
+    background-color:  rgba(255, 255, 255, 0.4);
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.btn-mail{
+    width: 140px;
+    height: 47px;
+    background-color: rgba(15, 15, 15, 1);
+    color: white;
+    margin-left: -5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+input::-webkit-input-placeholder { color: white; }
